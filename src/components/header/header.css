@@ -1,0 +1,32 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+body {background:url('https://media.istockphoto.com/id/1218394968/vi/anh/b%E1%BA%A7u-tr%E1%BB%9Di-m%C3%A0u-ph%E1%BA%A5n-v%C3%A0-m%C3%A2y.jpg?b=1&s=612x612&w=0&k=20&c=x4dtjRUpSfHTK6OXbt2ZeQtBSpBgRNdCrYmQXMaZzbI=') ;position:-webkit-sticky;}
